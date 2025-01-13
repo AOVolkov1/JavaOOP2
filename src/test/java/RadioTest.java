@@ -51,7 +51,7 @@ public class RadioTest {
     }
 
     @Test
-    public void shouldReduceeRadioStation() {
+    public void shouldReduceRadioStation() {
         Radio rad = new Radio();
         rad.setCurrentRadioStation(5);
         rad.prev();
